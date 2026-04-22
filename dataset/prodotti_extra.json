@@ -1,0 +1,523 @@
+[
+  {
+    "id_prodotto": 1,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "allergia aspirina",
+      "diabete",
+      "gravidanza"
+    ],
+    "tags": [
+      "OTC",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 2,
+    "descrizione": "Farmaco della categoria Vitamine ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "insufficienza renale",
+      "gravidanza"
+    ],
+    "tags": [
+      "generico",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 3,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "allergia aspirina",
+      "gravidanza"
+    ],
+    "tags": [
+      "fascia C",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 4,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Amoxicillina",
+    "controindicazioni": [
+      "gravidanza",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "generico",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 5,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "diabete"
+    ],
+    "tags": [
+      "fascia A",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 6,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "allergia aspirina"
+    ],
+    "tags": [
+      "generico",
+      "fascia C"
+    ]
+  },
+  {
+    "id_prodotto": 7,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "insufficienza renale"
+    ],
+    "tags": [
+      "pediatrico",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 8,
+    "descrizione": "Farmaco della categoria Vitamine ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "diabete",
+      "insufficienza renale",
+      "gravidanza"
+    ],
+    "tags": [
+      "generico",
+      "fascia C"
+    ]
+  },
+  {
+    "id_prodotto": 9,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Amoxicillina",
+    "controindicazioni": [
+      "diabete"
+    ],
+    "tags": [
+      "fascia C",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 10,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "gravidanza"
+    ],
+    "tags": [
+      "fascia C",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 11,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Amoxicillina",
+    "controindicazioni": [
+      "diabete",
+      "insufficienza renale",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "fascia C",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 12,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "gravidanza",
+      "ipertensione"
+    ],
+    "tags": [
+      "OTC",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 13,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Amoxicillina",
+    "controindicazioni": [
+      "allergia aspirina",
+      "diabete"
+    ],
+    "tags": [
+      "fascia A",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 14,
+    "descrizione": "Farmaco della categoria Vitamine ad uso orale.",
+    "principio_attivo": "Paracetamolo",
+    "controindicazioni": [
+      "gravidanza"
+    ],
+    "tags": [
+      "fascia A",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 15,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Vitamina C",
+    "controindicazioni": [
+      "insufficienza renale",
+      "gravidanza"
+    ],
+    "tags": [
+      "fascia C",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 16,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Vitamina C",
+    "controindicazioni": [
+      "ipertensione",
+      "insufficienza renale"
+    ],
+    "tags": [
+      "OTC",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 17,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Paracetamolo",
+    "controindicazioni": [
+      "insufficienza renale",
+      "diabete",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "fascia A",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 18,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "insufficienza renale",
+      "ipertensione",
+      "gravidanza"
+    ],
+    "tags": [
+      "fascia A",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 19,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Vitamina C",
+    "controindicazioni": [
+      "gravidanza"
+    ],
+    "tags": [
+      "generico",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 20,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "diabete",
+      "insufficienza renale",
+      "ipertensione"
+    ],
+    "tags": [
+      "fascia C",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 21,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "ipertensione",
+      "insufficienza renale",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "fascia C",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 22,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "gravidanza"
+    ],
+    "tags": [
+      "generico",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 23,
+    "descrizione": "Farmaco della categoria Dermici ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "ipertensione",
+      "insufficienza renale",
+      "diabete"
+    ],
+    "tags": [
+      "fascia C",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 24,
+    "descrizione": "Farmaco della categoria Dermici ad uso orale.",
+    "principio_attivo": "Paracetamolo",
+    "controindicazioni": [
+      "allergia aspirina",
+      "gravidanza"
+    ],
+    "tags": [
+      "generico",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 25,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "gravidanza",
+      "insufficienza renale"
+    ],
+    "tags": [
+      "generico",
+      "fascia C"
+    ]
+  },
+  {
+    "id_prodotto": 26,
+    "descrizione": "Farmaco della categoria Dermici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "insufficienza renale",
+      "gravidanza",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "fascia C",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 27,
+    "descrizione": "Farmaco della categoria Pediatrici ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "allergia aspirina",
+      "ipertensione"
+    ],
+    "tags": [
+      "generico",
+      "pediatrico"
+    ]
+  },
+  {
+    "id_prodotto": 28,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "diabete",
+      "gravidanza",
+      "ipertensione"
+    ],
+    "tags": [
+      "fascia C",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 29,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "ipertensione"
+    ],
+    "tags": [
+      "fascia A",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 30,
+    "descrizione": "Farmaco della categoria Vitamine ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "insufficienza renale"
+    ],
+    "tags": [
+      "generico",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 31,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "ipertensione"
+    ],
+    "tags": [
+      "generico",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 32,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "diabete"
+    ],
+    "tags": [
+      "pediatrico",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 33,
+    "descrizione": "Farmaco della categoria Analgesici ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "insufficienza renale",
+      "ipertensione"
+    ],
+    "tags": [
+      "fascia A",
+      "OTC"
+    ]
+  },
+  {
+    "id_prodotto": 34,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Zinco",
+    "controindicazioni": [
+      "diabete",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "pediatrico",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 35,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Paracetamolo",
+    "controindicazioni": [
+      "gravidanza",
+      "ipertensione",
+      "insufficienza renale"
+    ],
+    "tags": [
+      "fascia A",
+      "generico"
+    ]
+  },
+  {
+    "id_prodotto": 36,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Paracetamolo",
+    "controindicazioni": [
+      "insufficienza renale",
+      "gravidanza",
+      "ipertensione"
+    ],
+    "tags": [
+      "fascia C",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 37,
+    "descrizione": "Farmaco della categoria Cardiologia ad uso orale.",
+    "principio_attivo": "Cortisone",
+    "controindicazioni": [
+      "insufficienza renale",
+      "diabete",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "generico",
+      "fascia A"
+    ]
+  },
+  {
+    "id_prodotto": 38,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "allergia aspirina",
+      "diabete",
+      "insufficienza renale"
+    ],
+    "tags": [
+      "generico",
+      "fascia C"
+    ]
+  },
+  {
+    "id_prodotto": 39,
+    "descrizione": "Farmaco della categoria Antibiotici ad uso orale.",
+    "principio_attivo": "Ibuprofene",
+    "controindicazioni": [
+      "gravidanza",
+      "allergia aspirina"
+    ],
+    "tags": [
+      "generico",
+      "fascia C"
+    ]
+  },
+  {
+    "id_prodotto": 40,
+    "descrizione": "Farmaco della categoria Vitamine ad uso orale.",
+    "principio_attivo": "Aspirina",
+    "controindicazioni": [
+      "diabete"
+    ],
+    "tags": [
+      "pediatrico",
+      "fascia C"
+    ]
+  }
+]
