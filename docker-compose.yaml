@@ -1,0 +1,38 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: sac_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: sac
+      MYSQL_USER: sac_user
+      MYSQL_PASSWORD: sac_password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+      - ./Datasets:/var/lib/mysql-files:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-u", "root", "-proot_password"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  phpmyadmin:
+    image: phpmyadmin:5-apache
+    container_name: sac_phpmyadmin
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: sac_user
+      PMA_PASSWORD: sac_password
+    ports:
+      - "8080:80"
+
+volumes:
+  mysql_data:
