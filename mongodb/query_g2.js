@@ -17,7 +17,6 @@ db.prodotti_extended.aggregate([
 
 // M3: Query libera.
 // Motivazione: capire quali tag ricorrono di piu aiuta a leggere il mix di catalogo
-// tra prodotti OTC, pediatrici e altre etichette utili al business.
 db.prodotti_extended.aggregate([
   { $unwind: "$tags" },
   {
