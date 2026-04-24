@@ -1,0 +1,41 @@
+id_prodotto,nome,categoria,fornitore,prezzo_acquisto,prezzo_vendita,margine_unitario,principio_attivo,descrizione,ordini_fornitore,pct_consegne_ritardo,giorni_medi_ritardo_fornitore
+1,Prodotto_001,Cardiologia,Fornitore_4,3.56,7.70,4.14,Cortisone,Farmaco della categoria Pediatrici ad uso orale.,214,27.57,3.99
+2,Prodotto_002,Vitamine,Fornitore_2,4.08,5.44,1.36,Ibuprofene,Farmaco della categoria Vitamine ad uso orale.,216,23.61,3.65
+3,Prodotto_003,Pediatrici,Fornitore_4,9.31,11.53,2.22,Aspirina,Farmaco della categoria Cardiologia ad uso orale.,214,27.57,3.99
+4,Prodotto_004,Vitamine,Fornitore_4,10.85,13.39,2.54,Amoxicillina,Farmaco della categoria Antibiotici ad uso orale.,214,27.57,3.99
+5,Prodotto_005,Cardiologia,Fornitore_4,13.52,19.76,6.24,Zinco,Farmaco della categoria Cardiologia ad uso orale.,214,27.57,3.99
+6,Prodotto_006,Dermici,Fornitore_1,12.40,27.93,15.53,Cortisone,Farmaco della categoria Antibiotici ad uso orale.,192,21.35,3.16
+7,Prodotto_007,Vitamine,Fornitore_3,14.42,23.68,9.26,Aspirina,Farmaco della categoria Cardiologia ad uso orale.,194,31.96,3.25
+8,Prodotto_008,Vitamine,Fornitore_2,19.21,31.46,12.25,Aspirina,Farmaco della categoria Vitamine ad uso orale.,216,23.61,3.65
+9,Prodotto_009,Dermici,Fornitore_5,3.29,7.57,4.28,Amoxicillina,Farmaco della categoria Analgesici ad uso orale.,233,24.03,3.39
+10,Prodotto_010,Analgesici,Fornitore_7,15.00,28.46,13.46,Ibuprofene,Farmaco della categoria Pediatrici ad uso orale.,219,24.66,2.69
+11,Prodotto_011,Analgesici,Fornitore_6,11.71,26.68,14.97,Amoxicillina,Farmaco della categoria Pediatrici ad uso orale.,222,22.97,3.44
+12,Prodotto_012,Pediatrici,Fornitore_4,5.06,6.53,1.47,Zinco,Farmaco della categoria Analgesici ad uso orale.,214,27.57,3.99
+13,Prodotto_013,Antibiotici,Fornitore_2,5.93,18.14,12.21,Amoxicillina,Farmaco della categoria Antibiotici ad uso orale.,216,23.61,3.65
+14,Prodotto_014,Dermici,Fornitore_6,6.64,13.46,6.82,Paracetamolo,Farmaco della categoria Vitamine ad uso orale.,222,22.97,3.44
+15,Prodotto_015,Vitamine,Fornitore_5,8.35,12.29,3.94,Vitamina C,Farmaco della categoria Antibiotici ad uso orale.,233,24.03,3.39
+16,Prodotto_016,Cardiologia,Fornitore_3,18.83,38.46,19.63,Vitamina C,Farmaco della categoria Antibiotici ad uso orale.,194,31.96,3.25
+17,Prodotto_017,Pediatrici,Fornitore_7,14.99,21.17,6.18,Paracetamolo,Farmaco della categoria Cardiologia ad uso orale.,219,24.66,2.69
+18,Prodotto_018,Antibiotici,Fornitore_4,19.81,40.25,20.44,Aspirina,Farmaco della categoria Cardiologia ad uso orale.,214,27.57,3.99
+19,Prodotto_019,Cardiologia,Fornitore_1,7.50,16.49,8.99,Vitamina C,Farmaco della categoria Pediatrici ad uso orale.,192,21.35,3.16
+20,Prodotto_020,Vitamine,Fornitore_7,16.70,37.52,20.82,Zinco,Farmaco della categoria Analgesici ad uso orale.,219,24.66,2.69
+21,Prodotto_021,Antibiotici,Fornitore_6,2.72,6.49,3.77,Zinco,Farmaco della categoria Analgesici ad uso orale.,222,22.97,3.44
+22,Prodotto_022,Vitamine,Fornitore_8,13.63,23.37,9.74,Cortisone,Farmaco della categoria Pediatrici ad uso orale.,226,23.01,4.10
+23,Prodotto_023,Vitamine,Fornitore_5,6.40,9.73,3.33,Zinco,Farmaco della categoria Dermici ad uso orale.,233,24.03,3.39
+24,Prodotto_024,Cardiologia,Fornitore_7,12.31,29.14,16.83,Paracetamolo,Farmaco della categoria Dermici ad uso orale.,219,24.66,2.69
+25,Prodotto_025,Antibiotici,Fornitore_8,5.56,13.88,8.32,Ibuprofene,Farmaco della categoria Cardiologia ad uso orale.,226,23.01,4.10
+26,Prodotto_026,Analgesici,Fornitore_3,15.48,35.90,20.42,Cortisone,Farmaco della categoria Dermici ad uso orale.,194,31.96,3.25
+27,Prodotto_027,Cardiologia,Fornitore_2,4.46,9.30,4.84,Aspirina,Farmaco della categoria Pediatrici ad uso orale.,216,23.61,3.65
+28,Prodotto_028,Dermici,Fornitore_5,8.56,21.36,12.80,Ibuprofene,Farmaco della categoria Analgesici ad uso orale.,233,24.03,3.39
+29,Prodotto_029,Pediatrici,Fornitore_2,17.42,21.16,3.74,Aspirina,Farmaco della categoria Antibiotici ad uso orale.,216,23.61,3.65
+30,Prodotto_030,Cardiologia,Fornitore_6,17.87,38.89,21.02,Ibuprofene,Farmaco della categoria Vitamine ad uso orale.,222,22.97,3.44
+31,Prodotto_031,Analgesici,Fornitore_1,6.93,9.74,2.81,Cortisone,Farmaco della categoria Analgesici ad uso orale.,192,21.35,3.16
+32,Prodotto_032,Cardiologia,Fornitore_3,17.70,27.30,9.60,Cortisone,Farmaco della categoria Analgesici ad uso orale.,194,31.96,3.25
+33,Prodotto_033,Pediatrici,Fornitore_5,18.38,42.86,24.48,Cortisone,Farmaco della categoria Analgesici ad uso orale.,233,24.03,3.39
+34,Prodotto_034,Cardiologia,Fornitore_6,10.89,15.88,4.99,Zinco,Farmaco della categoria Cardiologia ad uso orale.,222,22.97,3.44
+35,Prodotto_035,Vitamine,Fornitore_1,11.48,25.40,13.92,Paracetamolo,Farmaco della categoria Antibiotici ad uso orale.,192,21.35,3.16
+36,Prodotto_036,Pediatrici,Fornitore_6,7.50,9.19,1.69,Paracetamolo,Farmaco della categoria Antibiotici ad uso orale.,222,22.97,3.44
+37,Prodotto_037,Antibiotici,Fornitore_2,5.93,8.97,3.04,Cortisone,Farmaco della categoria Cardiologia ad uso orale.,216,23.61,3.65
+38,Prodotto_038,Analgesici,Fornitore_3,15.04,34.00,18.96,Ibuprofene,Farmaco della categoria Antibiotici ad uso orale.,194,31.96,3.25
+39,Prodotto_039,Vitamine,Fornitore_3,13.71,33.33,19.62,Ibuprofene,Farmaco della categoria Antibiotici ad uso orale.,194,31.96,3.25
+40,Prodotto_040,Antibiotici,Fornitore_4,11.26,22.39,11.13,Aspirina,Farmaco della categoria Vitamine ad uso orale.,214,27.57,3.99
