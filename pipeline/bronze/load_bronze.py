@@ -14,14 +14,6 @@ def resolve_dataset_dir(base_dir):
     return base_dir / "dataset"
 
 
-def preferred_csv_path(dataset_dir, raw_name):
-    clean_name = raw_name.replace(".csv", "_clean.csv")
-    clean_path = dataset_dir / clean_name
-    if clean_path.exists():
-        return clean_path, clean_name
-    return dataset_dir / raw_name, raw_name
-
-
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATASET_DIR = resolve_dataset_dir(BASE_DIR)
 
@@ -44,7 +36,7 @@ cursor.execute("TRUNCATE TABLE bronze_vendite_raw")
 cursor.execute("TRUNCATE TABLE bronze_fornitori_storico_raw")
 cursor.execute("TRUNCATE TABLE bronze_prodotti_extra_raw")
 
-clienti_path, clienti_source = preferred_csv_path(DATASET_DIR, "clienti.csv")
+clienti_path = DATASET_DIR / "clienti.csv"
 with clienti_path.open(encoding="utf-8-sig", newline="") as file:
     reader = csv.DictReader(file)
     for row in reader:
@@ -60,11 +52,11 @@ with clienti_path.open(encoding="utf-8-sig", newline="") as file:
                 row["genere"] or None,
                 row["città"] or None,
                 row["tessera_fedeltà"] or None,
-                clienti_source,
+                "clienti.csv",
             ),
         )
 
-farmacie_path, farmacie_source = preferred_csv_path(DATASET_DIR, "farmacie.csv")
+farmacie_path = DATASET_DIR / "farmacie.csv"
 with farmacie_path.open(encoding="utf-8-sig", newline="") as file:
     reader = csv.DictReader(file)
     for row in reader:
@@ -81,11 +73,11 @@ with farmacie_path.open(encoding="utf-8-sig", newline="") as file:
                 row["provincia"] or None,
                 row["latitudine"] or None,
                 row["longitudine"] or None,
-                farmacie_source,
+                "farmacie.csv",
             ),
         )
 
-prodotti_path, prodotti_source = preferred_csv_path(DATASET_DIR, "prodotti.csv")
+prodotti_path = DATASET_DIR / "prodotti.csv"
 with prodotti_path.open(encoding="utf-8-sig", newline="") as file:
     reader = csv.DictReader(file)
     for row in reader:
@@ -102,11 +94,11 @@ with prodotti_path.open(encoding="utf-8-sig", newline="") as file:
                 row["fornitore"] or None,
                 row["prezzo_acquisto"] or None,
                 row["prezzo_vendita"] or None,
-                prodotti_source,
+                "prodotti.csv",
             ),
         )
 
-vendite_path, vendite_source = preferred_csv_path(DATASET_DIR, "vendite.csv")
+vendite_path = DATASET_DIR / "vendite.csv"
 with vendite_path.open(encoding="utf-8-sig", newline="") as file:
     reader = csv.DictReader(file)
     for row in reader:
@@ -124,7 +116,7 @@ with vendite_path.open(encoding="utf-8-sig", newline="") as file:
                 row["quantità"] or None,
                 row["prezzo_unitario"] or None,
                 row["id_cliente"] or None,
-                vendite_source,
+                "vendite.csv",
             ),
         )
 
