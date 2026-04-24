@@ -95,7 +95,10 @@ WHERE TRIM(p.id_prodotto) <> ''
   AND TRIM(p.categoria) <> ''
   AND TRIM(p.fornitore) <> ''
   AND TRIM(p.prezzo_acquisto) <> ''
-  AND TRIM(p.prezzo_vendita) <> '';
+  AND TRIM(p.prezzo_vendita) <> ''
+  AND CAST(TRIM(p.prezzo_acquisto) AS DECIMAL(10, 2)) >= 0
+  AND CAST(TRIM(p.prezzo_vendita) AS DECIMAL(10, 2)) >= 0
+  AND CAST(TRIM(p.prezzo_vendita) AS DECIMAL(10, 2)) >= CAST(TRIM(p.prezzo_acquisto) AS DECIMAL(10, 2));
 
 INSERT INTO silver_vendite (
     id_vendita,
