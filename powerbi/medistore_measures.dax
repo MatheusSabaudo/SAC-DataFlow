@@ -1,0 +1,70 @@
+-- Misure base
+
+Fatturato Totale =
+SUM('Fatto Vendite'[fatturato])
+
+Margine Totale =
+SUM('Fatto Vendite'[margine])
+
+Margine % =
+DIVIDE([Margine Totale], [Fatturato Totale])
+
+Quantita Venduta =
+SUM('Fatto Vendite'[quantita])
+
+Numero Vendite =
+COUNTROWS('Fatto Vendite')
+
+Scontrino Medio =
+DIVIDE([Fatturato Totale], [Numero Vendite])
+
+Clienti Unici =
+DISTINCTCOUNT('Fatto Vendite'[id_cliente])
+
+Prodotti Venduti =
+DISTINCTCOUNT('Fatto Vendite'[id_prodotto])
+
+Prezzo Medio Unitario =
+AVERAGE('Fatto Vendite'[prezzo_unitario])
+
+-- Clienti
+
+Fatturato Clienti Loyalty =
+CALCULATE(
+    [Fatturato Totale],
+    'Dim Cliente'[tessera_fedelta] = 1
+)
+
+Fatturato Clienti Non Loyalty =
+CALCULATE(
+    [Fatturato Totale],
+    'Dim Cliente'[tessera_fedelta] = 0
+)
+
+Quota Fatturato Loyalty % =
+DIVIDE([Fatturato Clienti Loyalty], [Fatturato Totale])
+
+Quantita Media Per Vendita =
+AVERAGE('Fatto Vendite'[quantita])
+
+-- Fornitori
+
+Ordini Fornitore =
+SUM('Dim Prodotto'[ordini_fornitore])
+
+Percentuale Ritardi Fornitore =
+AVERAGE('Dim Prodotto'[pct_consegne_ritardo])
+
+Ritardo Medio Fornitore =
+AVERAGE('Dim Prodotto'[giorni_medi_ritardo_fornitore])
+
+-- Supporto visual
+
+Margine Medio Unitario =
+AVERAGE('Dim Prodotto'[margine_unitario])
+
+Fatturato Per Cliente =
+DIVIDE([Fatturato Totale], [Clienti Unici])
+
+Fatturato Per Prodotto =
+DIVIDE([Fatturato Totale], [Prodotti Venduti])
